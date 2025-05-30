@@ -66,7 +66,7 @@ x
 
 git log --author Iryna
 
-git show - изминения самый последний коммит
+git show - изменения самый последний коммит
 
 git show 5fac1040b8386228c4bead0a05c14d4a9580e01f
 
@@ -78,6 +78,10 @@ index 0000000..0323d61
 @@ -0,0 +1 @@
 +# testing-portfolio
 
-git blame GitTutorial.md - какие изменения проводились в файле построчно
+git blame GitTutorial.md - какие и кто изменения проводились в файле построчно
 
-git blame GitTutorial.md | grep git pull
+git blame GitTutorial.md | grep **Пример:** - кто изменил строку  **Пример:**
+
+git blame GitTutorial.md | grep Iryna -
+
+git diff
