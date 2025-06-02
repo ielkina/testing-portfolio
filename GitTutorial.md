@@ -85,3 +85,11 @@ git blame GitTutorial.md | grep **Пример:** - кто изменил стр
 git blame GitTutorial.md | grep Iryna -
 
 git diff
+
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ echo "3line" >> newfile.txt
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ git checkout newfile.txt
+Updated 1 path from the index
