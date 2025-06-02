@@ -1,3 +1,31 @@
 echo "new line" >> new.file  -- команда в консоли
 new line
+new line
 commit testadd line
+
+
+ git diff new.file.patch
+
+ git diff > изменения.patch
+git format-patch <commit>
+git apply изменения.patch
+
+ git add new.file
+ git commit -m "добавил новую строку"
+ git push origin master
+
+ git reset --hard HEAD~1
+ git reset --soft HEAD~1
+ git reset HEAD~1
+ git reset --mixed HEAD~1
+
+ git revert <commit>
+ git cherry-pick <commit>
+ git rebase -i <commit>
+ git rebase --continue
+ git rebase --abort
+ git rebase --skip
+ git rebase --onto <newbase> <upstream> <branch>
+ git rebase <upstream> <branch>
+ git rebase <branch>    <newbase>
+  git rebase <branch> <upstream>
