@@ -93,3 +93,47 @@ $ echo "3line" >> newfile.txt
 Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
 $ git checkout newfile.txt
 Updated 1 path from the index
+
+cat: conflickt.tx: No such file or directory
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ cat conflickt.txt
+
+3line
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ git checkout .
+Updated 2 paths from the index
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ echo "3line" >> conflickt.txt
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ git stash
+warning: in the working copy of 'conflickt.txt', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state WIP on main: 6493f4d gitTutorial modif
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ cat conflickt.txt
+
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+$ git stash pop
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   conflickt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (7ae2889aee2ec0b82ada3d01c2704a1257ba5a33)
+
+Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
+
+
+stash - временное хранилище 
+git stash скрыть изминения
+git stash pop проверить/вернуть скрытые изминения
+git stash clear полностью  удалить изминения
