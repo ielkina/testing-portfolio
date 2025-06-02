@@ -1,0 +1,3 @@
+echo "new line" >> new.file  -- команда в консоли
+new line
+commit test
