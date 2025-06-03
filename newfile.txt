@@ -1,5 +1,6 @@
 new line
-addet line
+
 commit newfile.txt test line
 added line
+added line for GUI
 commit newfile.txt untest
