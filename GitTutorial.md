@@ -157,3 +157,7 @@ $ git push origin :feature
 To https://github.com/ielkina/testing-portfolio.git
  - [deleted]         feature
 ```
+
+### удалить ветку
+
+git branch -d test-branch - удаление ветки test-branch 
