@@ -6,5 +6,4 @@ index 055ad17..7d97bfb 100644
  echo "new line" >> new.file  -- команда в консоли
  new line
 +new line
- commit testadd line
-
+ commit test add line
