@@ -133,7 +133,13 @@ Dropped refs/stash@{0} (7ae2889aee2ec0b82ada3d01c2704a1257ba5a33)
 Ирина Елькина@Iryna-Ielkina MINGW64 /d/Work/Testing/testing-portfolio (main)
 
 
-stash - временное хранилище 
+stash - временное хранилище
 git stash скрыть изминения
 git stash pop проверить/вернуть скрытые изминения
 git stash clear полностью  удалить изминения
+
+
+//переименование
+git branch name - создание ветки
+git branch -m name new-name  - переименование этой ветки
+touch second.name.txt - создание нового файла 
