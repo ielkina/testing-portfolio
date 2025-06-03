@@ -160,4 +160,5 @@ To https://github.com/ielkina/testing-portfolio.git
 
 ### удалить ветку
 
-git branch -d test-branch - удаление ветки test-branch 
+git branch -d test-branch - удаление ветки test-branch
+git fetch origin test-branch - возвращение удаленной ветки 
